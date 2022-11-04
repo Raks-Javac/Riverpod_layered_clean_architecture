@@ -1,4 +1,4 @@
-import 'package:bottom_nav_test/feature/data/entity.dart';
+import 'package:bottom_nav_test/feature/feed_test_feature/data/entity.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // the business logic is handled here, [riverpod]
@@ -14,8 +14,6 @@ class FeedProvider extends StateNotifier<List<LivePost>> {
     state = [...state, ...post];
   }
 
-
-  
   // getUserFeed() async {
   //   await ref.getUserLiveFeed();
   // }
